@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 namespace EventBusEx.ui
 {
+    [RequireComponent(typeof(Text))]
     public class PlayerHpTextController : MonoBehaviour
     {
         private Text _hpText;

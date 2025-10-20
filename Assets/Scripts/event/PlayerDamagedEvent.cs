@@ -2,7 +2,7 @@
 
 namespace EventBusEx.@event
 {
-    public struct PlayerDamagedEvent : IEvent
+    public readonly struct PlayerDamagedEvent : IEvent
     {
         public int DamageAmount { get; }
         public int CurrentHealth { get; }

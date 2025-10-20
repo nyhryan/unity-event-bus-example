@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 namespace EventBusEx.ui
 {
+    [RequireComponent(typeof(Text))]
+    [RequireComponent(typeof(CanvasGroup))]
+    [RequireComponent(typeof(RectTransform))]
     public class FloatingDamageText : MonoBehaviour
     {
         [SerializeField] private float _speed = 50f;
